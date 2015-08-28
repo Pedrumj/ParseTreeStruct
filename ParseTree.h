@@ -24,6 +24,6 @@ void Add(struct ParseTree *__Node, int *__input, int __countInput);
 //keeps going up until a sibling is found
 struct ParseTree* GetNextInStack(struct ParseTree *__Node);
 //creates an empty node. Used to create the root
-struct ParseTree *NewParseTree();
+struct ParseTree *CreateParseTree();
 //prints the tree
 void PrintTree(struct ParseTree *_ptrHeader);

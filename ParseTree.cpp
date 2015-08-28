@@ -55,7 +55,7 @@ struct ParseTree* GetNextInStack(struct ParseTree *__Node){
 
 
 //creates an empty node. Used to create the root
-struct ParseTree *NewParseTree(){
+struct ParseTree *CreateParseTree(){
 	struct ParseTree *_ptrOutput = (struct ParseTree *)malloc(sizeof(struct ParseTree));
 	_ptrOutput->Parent = NULL;
 	_ptrOutput->FirstChild = NULL;
