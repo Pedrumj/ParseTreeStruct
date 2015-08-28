@@ -30,3 +30,7 @@ In the figure below each number is a node.
                                        |
                                        8->9->10->11
 </pre>
+
+# License
+
+[The MIT License (MIT)](http://opensource.org/licenses/MIT)
