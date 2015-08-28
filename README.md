@@ -2,15 +2,15 @@
 
 The ParseTreeStruct.h is a tree data structure. The structure appears as follows:
 
-[code language = "C"]
+<pre><code>
 struct ParseTree{
 	struct ParseTree *Parent;
 	struct ParseTree *Next;
 	struct ParseTree *FirstChild;
 	int value;
 };
-[/code]
-
+</code>
+</pre>
 Each node can have unlimited child nodes. 
 Each node is connected to its first child node and the next sibling. 
 Each node has reference to its parent.
