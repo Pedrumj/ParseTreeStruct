@@ -3,8 +3,11 @@
 
 
 struct ParseTree{
+	//parent node
 	struct ParseTree *Parent;
+	//next sibling
 	struct ParseTree *Next;
+	//first child
 	struct ParseTree *FirstChild;
 	int value;
 };
