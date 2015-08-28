@@ -23,10 +23,10 @@ In the figure below each number is a node.
 8, 9, 10 and 11 are the child nodes of 3
 <pre>
                                     1
-                                  / 
-                                 2->3->4->6
-                                /   |
-                               7    |
                                     |
-                                    8->9->10->11
+                                    2->3->4->6
+                                    |  |
+                                    7  |
+                                       |
+                                       8->9->10->11
 </pre>
